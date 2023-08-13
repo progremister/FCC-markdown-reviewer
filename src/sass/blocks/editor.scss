@@ -1,0 +1,38 @@
+#editor,
+#preview {
+  width: 100%;
+  height: 80vh;
+  font-size: 1.8rem;
+  background-color: $gray;
+  resize: none;
+  padding: 1rem;
+  overflow: auto;
+  border-radius: 20px;
+
+  @media screen and (min-width: 768px) {
+    width: 50%;
+    height: 80vh;
+  }
+}
+
+#editor {
+  color: white;
+
+  @media screen and (min-width: 768px) {
+    margin-right: 1rem;
+  }
+}
+
+#preview {
+  margin-top: 1rem;
+
+  @media screen and (min-width: 768px) {
+    width: 50%;
+    height: 80vh;
+    margin: 0 1rem 0 0;
+  }
+}
+
+img {
+  max-width: 100%;
+}
